@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DB Jemaat</title>
+  </head>
+  <body>
+    <a href="show_toAdmin.php">Lihat database</a>
+
+    <h2>Mengisi Jumlah Jemaat</h2>
+
+    <form action="insert.php" method="post">
+      <strong>ID : </strong><br />
+      <input type="text" name="id" size="30" maxlength="4" /><br /><br />
+      <strong>Tahun : </strong><br />
+      <input type="text" name="tahun" size="30" maxlength="4" /><br /><br />
+
+      <strong>Jumlah Jemaat :</strong><br />
+      <input type="text" name="jemaat" size="30" maxlength="8" /><br /><br />
+
+      <strong>Data kehadiran : </strong><br />
+      <input type="text" name="kehadiran" size="30" maxlength="8" /><br /><br />
+
+      <strong>Cabang : </strong><br />
+      <input type="text" name="cabang" size="30" maxlength="8" /><br /><br />
+
+      <input type="submit" name="btnSubmit" value="Simpan" />
+    </form>
+  </body>
+</html>
